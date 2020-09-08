@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test work by Ann Salkova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header__box">
+                        <a class="header__name" href="#">Test Work</a>
+                    </div>
+                </div>
+            </header>
+            <section class="section">
+                <div class="container">
+                    <div class="section__inner">
+                        <div class="section__box">
+                            <p class="section__text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam libero doloribus itaque
+                                quaerat cupiditate blanditiis aspernatur, iure sequi quibusdam quasi accusamus placeat,
+                                ipsam suscipit et ratione saepe ducimus. Dolor, saepe?Ut eum ex laborum repellendus.
+                            </p>
+                            <div class="section__link" data-modal="#modal_1">
+                                Asset Manager
+                            </div>
+                        </div>
+                        <div class="section__image">
+                            <img src="images/item.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="footer__text">
+                    © 2020, Test Work for Aurigma by Ann Salkova
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal" id="modal_1">
+        <div class="modal__wrapper">
+            <div class="modal__wrapper-top">
+                <div class="modal__wrapper-name">
+                    Select an image
+                </div>
+                <div class="modal__wrapper-close">
+                    <button class="modal__close" type="button" data-close>
+                        <img class="modal__close-img" src="images/close.png" alt="close">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__tabs">
+                <div class="tabs">
+                    <span class="tab active tab__public" data-id="1">Public</span>
+                    <span class="tab tab__files" data-id="2">My Files</span>
+                </div>
+                <div class="tab_content">
+                    <div class="tab-item active-tab" id="1">
+                        <div class="files__tabs">
+                            <div class="tabs__btn-adapt">
+                                <div class="tabs__btn-adapt__inner">
+                                    <div class="tabs__btn-name">
+                                        Category name
+                                    </div>
+                                    <div class="menu-adapt"></div>
+                                </div>
+                            </div>
+                            <div class="tabs__tabs">
+                                <div class="tabs__top-wrapper">
+                                    <div class="tabs__top-box">
+                                        <div class="tabs__top-left"></div>
+                                        <div class="tabs__top-name">Select a category</div>
+                                    </div>
+                                </div>
+                                <div class="files__title">Categories</div>
+                                <ul>
+                                    <li>
+                                        <div class="file__tab" data-id="all"><span>All (1984)</span></div>
+                                    </li>
+                                    <li class="file__tab-parent">
+                                        <div class="file__tab parent" data-id="animals"><span>Animals (387)</span></div>
+                                        <ul class="child__list active">
+                                            <li>
+                                                <div class="file__tab file__tab-child" data-id="cats"><span>Cats (54)</span></div>
+                                                <ul class="grand__list">
+                                                    <li>
+                                                        <div class="file__tab file__tab-grand" data-id="sibirskaya">
+                                                            <span>Sibirskaya</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="file__tab file__tab-grand" data-id="siamskaya">
+                                                            <span>Siamskaya</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="file__tab file__tab-child2" data-id="dogs"><span>Dogs</span></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="file__tab" data-id="flowers"><span>Flowers</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="file__tab" data-id="fruits"><span>Fruits</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="file__tab" data-id="interiors"><span>Interiors (90)</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="files__tab_content">
+                                <div class="f_active-tab files__tab-item" id="all">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#"><span>All</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__box-item__load">
+                                        <div class="spinner"></div>
+                                        <div class="files__box-content">
+                                            <div class="files__box-info">
+                                                <div class="files__info-name">File name</div>
+                                                <div class="files__info-text">Support text</div>
+                                            </div>
+                                            <div class="files__box-btn">
+                                                <a class="files__box-link" href="#"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="animals">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#"><span>Animals</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__box-file">
+                                        <div class="files__box-file-item">
+                                            <img src="images/file.png" alt="">
+                                            <div class="file-item__name">Cats</div>
+                                        </div>
+                                        <div class="files__box-file-item">
+                                            <img src="images/file.png" alt="">
+                                            <div class="file-item__name">Dogs</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="flowers">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#"><span>Flowers</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__box">
+                                        <div class="files__box-item">
+                                            <img class="files__box-img" src="images/fl.jpg" alt="">
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files__box-item">
+                                            <img class="files__box-img" src="images/roza.jpg" alt="">
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files__box-item__load">
+                                            <div class="spinner"></div>
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="fruits">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#"><span>Fruits</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__box">
+                                        <div class="files__box-item">
+                                            <img class="files__box-img" src="images/fruits.jpg" alt="">
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files__box-item">
+                                            <img class="files__box-img" src="images/fruits2.jpg" alt="">
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files__box-item__load">
+                                            <div class="spinner"></div>
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="interiors">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#"><span>Interiors </span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__box-item__load">
+                                        <div class="spinner"></div>
+                                        <div class="files__box-content">
+                                            <div class="files__box-info">
+                                                <div class="files__info-name">File name</div>
+                                                <div class="files__info-text">Support text</div>
+                                            </div>
+                                            <div class="files__box-btn">
+                                                <a class="files__box-link" href="#"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="cats">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#">Animals </a></li>
+                                            <li><a href="#"><span>Cats</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__box-file">
+                                        <div class="files__box-file-item">
+                                            <img src="images/file.png" alt="">
+                                            <div class="file-item__name">Sibirskaya</div>
+                                        </div>
+                                        <div class="files__box-file-item">
+                                            <img src="images/file.png" alt="">
+                                            <div class="file-item__name">Siamskaya </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="dogs">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#">Animals </a></li>
+                                            <li><a href="#"><span>Dogs</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__empty">
+                                        <img class="files__empty-img" src="images/empty.png" alt="">
+                                        <p class="files__empty-title">It’s empty in here.</p>
+                                        <p class="files__empty-text">Oops! Seems like there’s no files under this
+                                            category right now.</p>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="sibirskaya">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#">Animals</a></li>
+                                            <li><a href="#">Cats</a></li>
+                                            <li><a href="#"><span>Sibirskaya</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__box">
+                                        <div class="files__box-item">
+                                            <img class="files__box-img" src="images/canva.png" alt="">
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files__box-item">
+                                            <img class="files__box-img" src="images/cat.png" alt="">
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files__box-item__load">
+                                            <div class="spinner"></div>
+                                            <div class="files__box-content">
+                                                <div class="files__box-info">
+                                                    <div class="files__info-name">File name</div>
+                                                    <div class="files__info-text">Support text</div>
+                                                </div>
+                                                <div class="files__box-btn">
+                                                    <a class="files__box-link" href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="files__tab-item" id="siamskaya">
+                                    <div class="breadcrumbs">
+                                        <ul class="breadcrumbs__list">
+                                            <li><a href="#">Animals</a></li>
+                                            <li><a href="#">Cats</a></li>
+                                            <li><a href="#"><span>Siamskaya</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="files__empty">
+                                        <img class="files__empty-img" src="images/empty.png" alt="">
+                                        <p class="files__empty-title">It’s empty in here.</p>
+                                        <p class="files__empty-text">Oops! Seems like there’s no files under this
+                                            category right now.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control__buttons">
+                            <input class="search__input" type="text">
+                            <button class="icon search" type="submit"></button>
+                            <button class="icon sort" type="submit"></button>
+                            <button class="icon tile" type="submit"></button>
+                            <a class="user" href="#">
+                                <img src="images/avatar.png" alt="">
+                            </a>
+                            <a class="icon menu" href="#"></a>
+                            <ul class="menu__icon">
+                                <li><a href="#">Menu-1</a></li>
+                                <li><a href="#">Menu-2</a></li>
+                                <li><a href="#">Menu-3</a></li>
+                            </ul>
+                        </div>
+                        <div class="control__buttons control__buttons-adaptiv">
+                            <a class="icon menu menu-adapt" href="#"></a>
+                            <ul class="menu__icon-adapt">
+                                <input class="search__input search__input-adapt" type="text">
+                                <li><button class="icon search" type="submit"></button></li>
+                                <li><button class="icon sort" type="submit"></button></li>
+                                <li><button class="icon tile" type="submit"></button></li>
+                                <li><a class="user user-adaptiv" href="#">
+                                        <img src="images/avatar.png" alt="">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-item active-tab" id="2">
+                        <div class="upload__box">
+                            <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1"
+                                data-multiple-caption="{count} files selected" multiple />
+                            <label for="file-1">
+                                <span>Upload&hellip;</span></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button__wrapper">
+                <div class="button__inner">
+                    <div class="insert__text active">INSERT TO ALL</div>
+                    <div class="insert__text active">INSERT</div>
+                    <button class="insert__btn insert__btn-all" type="submit">INSERT TO ALL</button>
+                    <button class="insert__btn insert__btn-one" type="submit">INSERT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

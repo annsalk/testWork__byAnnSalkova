@@ -1,0 +1,142 @@
+@media (max-width: 950px){
+    .section {
+        padding: 70px 0;
+        &__text {
+            max-width: 300px;
+            width: 100%;
+            margin: 20px 40px 20px 0;
+        }
+    }
+}
+@media (max-width: 850px) {
+    .control__buttons {
+        display: none;
+    }
+    .control__buttons-adaptiv {
+        display: block;
+        position: absolute;
+        right: -280px;
+        top: 115px;
+        .control__buttons .icon::before {
+            display: block;
+            content: "\f002";
+            position: absolute;
+            font-family: 'icomoon' !important;
+            font-size: 22px;
+            margin-right: 10px;
+        }
+        .menu-adapt {
+            display: block;
+        }
+        .menu__icon-adapt.active {
+            display: block;
+        }
+    }
+    .files__box  {
+        padding-top: 0;
+        max-height: 55vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .button__inner .insert__text {
+        padding: 10px;
+    }
+    .button__wrapper {
+        bottom: 50px;
+    }
+    .files__empty {
+        left: 20%;
+    }
+}
+@media (max-width: 730px) {
+    .section {
+        position: relative;
+    &__image {
+        margin-top: 40px;
+        }
+    &__text {
+        text-align: center;
+        margin: 20px;
+        }
+    &__link {
+        
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        text-align: center;
+        }
+    }
+}
+@media (max-width: 700px) {
+    .button__inner .insert__btn {
+        padding: 15px;
+    }
+    .button__wrapper {
+        bottom: 42px;
+    }
+    .modal__wrapper {
+        height: 80vh;
+    }
+    .breadcrumbs {
+        padding: 10px 15px;
+        font-size: 12px;
+    } 
+    .files__empty {
+        left: 10%;
+    }
+}
+@media (max-width: 600px) {
+    .tabs__tabs {
+        left: 1000px;
+        position: absolute;
+        transition: all .5s;
+        z-index: 5;
+        background-color: #fff;
+        top: 0;
+    }
+    .tabs__tabs.active {
+        left: 0;
+        max-width: 100%;
+        height: 100%;
+    }
+    .tabs__btn-adapt {
+        display: block;
+    }
+    .breadcrumbs {
+        display: none;
+    }
+    .modal {
+        padding: 15px;
+    }
+    .files__tabs {
+        display: block;
+    }
+    .tabs__top-wrapper {
+        display: block;
+        cursor: pointer;
+    }
+    .files__empty {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 120px;
+    }
+}
+@media (max-width: 390px) {
+    .section {
+        position: relative;
+        &__link {
+            margin-left: 0px;
+            }
+        img {
+        display: none;
+        }
+        p {
+            padding: 0;
+            margin: 0 0 20px;
+        }
+    }
+    .tab {
+        padding-left: 45px;
+    }
+}
